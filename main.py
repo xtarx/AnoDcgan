@@ -2,7 +2,6 @@ import os
 import scipy.misc
 import numpy as np
 
-from model import  DCGAN_original
 from modelAYAD import DCGAN
 from utils import pp, visualize, to_json, show_all_variables, generate_latent_for_query
 import matplotlib.pyplot as plt
